@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questao4Artes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jogador: "
+            android:textColor="@color/purple_200"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewNomeArt4"
+            />
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecione abaixo, as obras de arte que podem ser atribuídas á Van Gohg:"
+            android:textAlignment="center"
+            android:layout_marginTop="70dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textColor="@color/cardview_dark_background"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBoxComedores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Os comedores de batata"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBoxAmendoeira"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Amendoeira em Flor"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBoxBarqueiros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="O almoço dos barqueiros"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBoxNoite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="A noite estrelada"
+            />
+
+        <Button
+            android:id="@+id/buttonArtConfirmar4"
+            android:layout_width="125dp"
+            android:layout_height="55dp"
+            android:text="Confirmar"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+
+</LinearLayout>

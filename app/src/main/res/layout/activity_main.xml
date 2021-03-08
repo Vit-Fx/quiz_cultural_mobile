@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Quiz Cultural"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Digite seu nome ou apelido"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        app:icon="?attr/actionModePasteDrawable"
+        android:layout_gravity="center"
+        android:id="@+id/buttonConfirmar"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewOla"
+        android:text="Olá"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/purple_200"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAssunto"
+        android:text="Selecione o assunto desejado:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/cardview_dark_background"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/buttonArtes"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:text="Artes"
+            android:layout_marginRight="30dp"
+            android:visibility="gone"
+
+            />
+
+        <Button
+            android:id="@+id/buttonCinema"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:text="Cinema"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        >
+
+
+        <Button
+            android:id="@+id/buttonHistoria"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:text="História"
+            android:layout_marginRight="30dp"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/buttonMusica"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:text="Música"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

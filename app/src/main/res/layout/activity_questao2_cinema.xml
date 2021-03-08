@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Questao2Cinema"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jogador: "
+            android:textColor="@color/purple_200"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewNomeCinema2"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quem foi o diretor do filme ' História de um casamento? ' "
+        android:textAlignment="center"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColor="@color/cardview_dark_background"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        app:srcCompat="@drawable/historiadeumcasamento"
+        android:layout_margin="10dp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButtonJames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="James Cameron"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButtonTim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tim Burton"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButtonNoah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Noah Baumbach"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonCinemaConfirmar2"
+        android:layout_width="125dp"
+        android:layout_height="55dp"
+        android:text="Confirmar"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
